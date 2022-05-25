@@ -34,6 +34,7 @@ export default function Login() {
           />
         </label>
         <button>log in</button>
+        {error && <p>{error}</p>}
       </form>
     </div>
   );
